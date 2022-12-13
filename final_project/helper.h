@@ -15,4 +15,8 @@ void set_pin_as_output(volatile unsigned char* ddr_n, unsigned char pin_num)
 {
     *ddr_n |= 0x01 << pin_num;
 }
+void set_pin_as_input(volatile unsigned char* ddr_n, unsigned char pin_num)
+{
+    *ddr_n &= (~(0x01 << (pin_num - 1)));
+}
 
