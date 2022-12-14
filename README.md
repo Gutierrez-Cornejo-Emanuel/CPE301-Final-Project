@@ -3,4 +3,7 @@
 * Emanuel Gutierrez Cornejo
 * Austin Hendricks
 ### About
+
 The code used for the swamp cooler can be found in the `main_code.ino` file.
+
+Demo videos can be found in the `videos/` folder
